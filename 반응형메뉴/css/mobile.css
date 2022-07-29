@@ -1,0 +1,36 @@
+/* mobile */
+
+body {
+    background: #ccc;
+}
+
+header {
+    text-align: center;
+    background: #fff;
+}
+
+header h1 {
+    padding: 20px 0;
+}
+
+header h1 small {
+    font-size: 14px;
+}
+
+header nav {
+    /* display: flex; */
+    background: #333;
+    justify-content: center;
+}
+
+header nav a {
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+
+header nav a:hover {
+    background: #1abc9c;
+}

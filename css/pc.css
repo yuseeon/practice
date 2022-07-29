@@ -1,0 +1,33 @@
+/* pc */
+
+body {
+    background: white;
+}
+
+.container {
+    /* 최대 1440px까지 가변 */
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    background: #ccc;
+}
+
+main {
+    /* display: flex; */
+}
+
+main article {
+    outline: 2px solid #333;
+    padding: 20px;
+    flex: 1;
+    height: 300px;
+    background: pink;
+}
+
+footer {
+    background: #666;
+}
